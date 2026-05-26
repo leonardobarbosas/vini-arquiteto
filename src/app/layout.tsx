@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import CustomCursor from '@/components/CustomCursor/CustomCursor';
 import { Mozilla_Text } from "next/font/google";
 
 const mozillaText = Mozilla_Text({
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${mozillaText.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <CustomCursor/>
         <Header />
         {children}
       </body>
