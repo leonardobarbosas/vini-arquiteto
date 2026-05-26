@@ -1,9 +1,13 @@
 import Image from "next/image";
+import HomePage from "@/components/HomePage/HomePage";
+import AboutPage from "@/components/AboutPage/AboutPage";
+import ServicePage from "@/components/ServicePage/ServicePage";
 
 export default function Home() {
   return (
-    <div className="flex">
-      
-    </div>
+    <main className="flex flex-col">
+      <HomePage />
+      <AboutPage />
+    </main>
   );
 }

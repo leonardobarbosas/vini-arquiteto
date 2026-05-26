@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/Header";
-import CustomCursor from '@/components/CustomCursor/CustomCursor';
+import CustomCursor from "@/components/CustomCursor/CustomCursor";
 import { Mozilla_Text } from "next/font/google";
 
 const mozillaText = Mozilla_Text({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["200", "300", "400", "500", "600", "700"],
   variable: "--font-mozilla",
   adjustFontFallback: false,
 });
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${mozillaText.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-        <CustomCursor/>
+        <CustomCursor />
         <Header />
         {children}
       </body>
