@@ -9,8 +9,8 @@ export default function CustomCursor() {
       innerScale={1}
       outerScale={2}
       outerAlpha={0}
-      innerStyle={{ backgroundColor: "#F0EDE6" }}
-      outerStyle={{ border: "3px solid #F0EDE6" }}
+      innerStyle={{ backgroundColor: "#4D4B43" }}
+      outerStyle={{ border: "3px solid #4D4B43" }}
     />
   );
 }
