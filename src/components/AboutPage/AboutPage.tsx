@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <section className="h-screen pt-10 flex pl-20">
       <div className="flex flex-col w-[40%] h-full  justify-evenly">
-        <p className="text-[#D8D8C7] font-semibold">SOBRE NÓS</p>
+        <h3 className="text-[#D8D8C7] font-semibold">SOBRE NÓS</h3>
         <h1 className="text-8xl tracking-tight leading-none">
           Arte que se torna <span className="text-[#4D4B43]">espaço</span>.
         </h1>
