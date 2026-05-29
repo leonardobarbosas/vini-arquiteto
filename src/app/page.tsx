@@ -8,6 +8,7 @@ export default function Home() {
     <main className="flex flex-col">
       <HomePage />
       <AboutPage />
+      <ServicePage />
     </main>
   );
 }
