@@ -60,6 +60,7 @@ export default function ProjectsPage() {
             src={projects[active].mainImg}
             alt={projects[active].name}
             fill
+            sizes="(max-width: 768px) 100vw, 58vw"
             className="object-cover"
           />
           <div className="absolute bottom-0 left-0 p-6 bg-[#1A1916] w-full">
@@ -85,6 +86,7 @@ export default function ProjectsPage() {
               src={projects[index].mainImg}
               alt={projects[index].name}
               fill
+              sizes="(max-width: 768px) 100vw, 58vw"
               className="object-cover transition-transform duration-700 group-hover:scale-102"
             />
           </button>
