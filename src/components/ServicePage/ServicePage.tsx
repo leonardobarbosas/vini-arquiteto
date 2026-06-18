@@ -49,7 +49,10 @@ export default function ServicePage() {
   ];
 
   return (
-    <section className="h-screen pt-10 flex pl-20 pr-20 bg-[#141412] w-full flex-col gap-25">
+    <section
+      className="h-screen pt-10 flex pl-20 pr-20 bg-[#141412] w-full flex-col gap-25"
+      id="servicos-section"
+    >
       <div>
         <h3 className="text-[#D8D8C7] font-semibold">O QUE FAZEMOS</h3>
         <h1 className="text-8xl w-1/4 pt-10">Nossos serviços.</h1>

@@ -1,7 +1,19 @@
 @import "tailwindcss";
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
   background: #0a0a09;
   color: #f0ede6;
   font-family: "Mozilla Text", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
