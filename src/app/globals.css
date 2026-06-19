@@ -16,4 +16,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  background: #0a0a0989;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
+

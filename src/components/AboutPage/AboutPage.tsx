@@ -2,7 +2,10 @@
 
 export default function AboutPage() {
   return (
-    <section className="h-screen flex pl-20" id="sobre-section">
+    <section
+      className="h-screen flex pl-20 justify-around pt-10"
+      id="sobre-section"
+    >
       <div className="flex flex-col w-[40%] h-full  justify-evenly">
         <h3 className="text-[#D8D8C7] font-semibold">SOBRE NÓS</h3>
         <h1 className="text-8xl tracking-tight leading-none">
@@ -37,7 +40,68 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 "></div>
+      <div className="w-1/2 h-full p-10">
+        <div
+          className="grid h-full border border-[#333] text-[#D8D8C7] text-xs font-semibold tracking-widest"
+          style={{
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gridTemplateRows: "repeat(5, 1fr)",
+            background: "radial-gradient(circle, #51483510, #1A191620)",
+          }}
+        >
+          <div
+            className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300 cursor-pointer"
+            style={{ gridRow: "1 / 3" }}
+          >
+            SALA DE ESTAR
+          </div>
+
+          <div
+            className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300"
+            style={{ gridColumn: "2 / 4" }}
+          >
+            COZINHA
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            DISPENSA
+          </div>
+
+          <div
+            className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300"
+            style={{ gridRow: "2 / 4" }}
+          >
+            SUÍTE
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            QUARTO 01
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            QUARTO 02
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            BANHEIRO
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            LAVANDERIA
+          </div>
+
+          <div className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300">
+            VARANDA
+          </div>
+
+          <div
+            className="border border-[#514835] flex items-center justify-center text-[#D8D8C7] hover:bg-[#74684f] transition-colors duration-300"
+            style={{ gridColumn: "1 / 4" }}
+          >
+            GARAGEM
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
